@@ -1,6 +1,6 @@
-# gcp-projectcd 
+#to build infra on gcp using terraform do : 
 
-#to build infra on gcp using terraform do :
+
 cd gcpProject/
 terraform init
 terraform apply
