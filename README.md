@@ -9,9 +9,9 @@ terraform apply
 
 # to build image from docker file use :
 
-docker build -t <img-name> .
-docker tag <img-name> gcr.io/<project-id>/<img-name>
-docker push gcr.io/<project-id>/<img-name>
+docker build -t python-app .
+docker tag python-app gcr.io/<iti-1-366311/python-app
+docker push gcr.io/iti-1-366311/python-app
   
 # to deploy the application on gke cluser 
   
